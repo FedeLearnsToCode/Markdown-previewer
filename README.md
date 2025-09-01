@@ -4,7 +4,7 @@ A small React project that lets you write Markdown and see a live HTML preview, 
 
 ---
 
-🔗 Live Demo: https://fedelearnstocode.github.io/Markdown-previewer/
+🔗 Live Demo: 
 
 ![Markdown Previewer Screenshot](./screenshot.png)
 
@@ -37,6 +37,7 @@ A small React project that lets you write Markdown and see a live HTML preview, 
 - I used React 17 because React 18 has some issues with FreeCodeCamp tests.
 - Security is important, so I sanitize the HTML before displaying it.
 - Everything works locally, no server needed.
+- To ensure that FreeCodeCamp's tests run correctly on GitHub Pages, I had to **embed the `app.js` logic directly inside the `index.html` file** using a `<script type="text/babel">` tag. This approach avoids issues with the test bundle not recognizing required elements like `#editor` and `#preview`.
 
 ---
 
@@ -53,4 +54,3 @@ A small React project that lets you write Markdown and see a live HTML preview, 
 ---
 
 🎓 Built for the project Build a Markdown Previewer by [freeCodeCamp](https://www.freecodecamp.org).
-
