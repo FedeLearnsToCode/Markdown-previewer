@@ -4,7 +4,7 @@ A small React project that lets you write Markdown and see a live HTML preview, 
 
 ---
 
-🔗 Live Demo: 
+🔗 Live Demo: https://fedelearnstocode.github.io/Markdown-previewer/
 
 ![Markdown Previewer Screenshot](./screenshot.png)
 
@@ -54,3 +54,4 @@ A small React project that lets you write Markdown and see a live HTML preview, 
 ---
 
 🎓 Built for the project Build a Markdown Previewer by [freeCodeCamp](https://www.freecodecamp.org).
+
